@@ -66,12 +66,29 @@
     .big-div{
     display: flex;
     text-align: end;
-    /* justify-content: end; */
+    justify-content: space-between;
     background-color: aliceblue;
+    
     }
-    button:hover{
-        border: dotted black;
+    .navbar ul {
+
+        list-style: none;
+        background-color: #183841;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+       
     }
+    .navbar a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 15px;
+        text-align: right;
+    }
+    .navbar a:hover{
+        background-color: rgb(36, 138, 99);
+    }
+    
     footer{
         background-color: rgb(228, 156, 218);
     }
@@ -86,16 +103,16 @@
 
     <div class=" big-div">
         <img src="https://t3.ftcdn.net/jpg/04/79/73/52/360_F_479735241_O3jHvE8zCMZTr0BdL7DPIKV102GvNBcD.jpg" alt="" height="50px" width="50px">
-    <nav>
-        <ul class=" container">
+    <nav class="navbar">
+        <ul >
            
             </ul>
             <ul>
-           <button class="nap"><li><a href="index.html">Home</a></li> </button>
-           <button class="nap"> <li> <a href="pages/about.html">About</a></li></button>
-           <button class="nap" ><li><a href="pages/product.html">Product</a></li> </button>
-           <button class="nap"><li><a href="pages/contact.html">Contact</a></li></button> 
-           <button class="nap"><li><a href="pages/Signup.html"> Signup</a></li></button>
+           <button ><li><a href="index.html">Home</a></li> </button>
+           <button > <li> <a href="pages/about.html">About</a></li></button>
+           <button ><li><a href="pages/product.html">Product</a></li> </button>
+           <button ><li><a href="pages/contact.html">Contact</a></li></button> 
+           <button ><li><a href="pages/Signup.html"> Signup</a></li></button>
         
         </ul>
     </nav>
