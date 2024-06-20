@@ -10,44 +10,43 @@
 
         .mine{
         background-image: url('https://mywordfmonline.com/wp-content/uploads/2020/06/484b935c-14ef-4611-854c-52b1ac838906.jpg');
-        height: 300px;
-        width: 50%;
+        height: 250px;
+        width: 40%;
         background-repeat: no-repeat;
-        border-radius: 10px;
+        border-radius: 20%;
         text-align: center;
         /* border-width: 25px;
         border-style: solid;
         border-color: #1105b8; */
-        border: 25px solid white;
-        margin: 0 auto;
+        border: 25px solid rgb(10, 2, 2);
+        /* margin: 0 auto;
+        flex-wrap: wrap; */
+        padding: 3%;
+        background-position: center;
 
        }
-         .nap{
-            justify-content: center;
+         .big-photo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+         }
+
+         .small-photo{
+            border: #183841 solid;
+         }
+         .photo{
+            width: 30%;
+            margin: 1%;
+            border: 3px solid color red ;
          }
     
-    .mine img{
-        border: 2px groove crimson;
-    }
-      .container{
-        display: flex;
-        flex: wrap ;
-      }
-    h4{
-        text-align: center;color: blue;background-color: aquamarine;
-        text-transform: uppercase;size: 60px;
-        font-style: inherit;
-    }
+       h4{
+          text-align: center;color: blue;background-color: aquamarine;
+           text-transform: uppercase;size: 60px;
+          font-style: inherit;
+       }
 
-  section{
-    height:50px;
-    width:50p;
-
-  }
-
-    
-
-    p{
+         p{
         background-color: rgb(13, 239, 247);
         text-align: center;color: #1105b8;
         font-size: 200%;
@@ -70,7 +69,12 @@
     /* justify-content: end; */
     background-color: aliceblue;
     }
-    
+    button:hover{
+        border: dotted black;
+    }
+    footer{
+        background-color: rgb(228, 156, 218);
+    }
 
     </style>
 </head>
@@ -96,6 +100,8 @@
         </ul>
     </nav>
 </div>
+
+<div>
     <div class="mine">
          <!-- <img src="https://mywordfmonline.com/wp-content/uploads/2020/06/484b935c-14ef-4611-854c-52b1ac838906.jpg " alt="image of women plant" >  -->
          <h1> Taste the Raw Goodness of Africa </h1> 
@@ -109,31 +115,34 @@
         the <b><u>traditional</u></b> diet features an abundance of root tuber products.<i><b>Central Africa, East Africa, North Africa, 
         Southern Africa and West Africa each have distinctive dishes, preparation techniques, and consumption modes</b></i>.
         <button><a href="./pages/product.html">Learn More</a></button>
-    </p>  
-    <div class="photo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8GL84R6YPh8L0uKh4KBHfJnXkUukWNWcdEA&s" width="500" height="500" alt="">
+    </p>
+
+    <div class="big-photo">
+    <div class="small-photo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8GL84R6YPh8L0uKh4KBHfJnXkUukWNWcdEA&s" width="300" height="300" alt="">
         <h4>African Spices</h4>
     </div>
 
-    <div class="photo">
-        <img src="https://www.shutterstock.com/image-photo/exotic-fruits-pineapple-papaya-mango-600nw-1681908451.jpg" width="500" alt="">
+    <div class="small-photo">
+        <img src="https://www.shutterstock.com/image-photo/exotic-fruits-pineapple-papaya-mango-600nw-1681908451.jpg" width="300" alt="">
         <h4>African Fruit</h4>
     </div>
 
-    <div class="photo">
-        <img src="https://cdn.shopify.com/s/files/1/0067/1576/8885/files/download_42_480x480.jpg?v=1692359546" width="500" alt="">
+    <div class="small-photo">
+        <img src="https://cdn.shopify.com/s/files/1/0067/1576/8885/files/download_42_480x480.jpg?v=1692359546" width="300" alt="">
         <h4>African Leafy Greens</h4>
     </div>
 
-    <div class="photo">
-        <img src="https://www.openaccessgovernment.org/wp-content/uploads/2020/04/legumes.jpg" width="500" alt="">
+    <div class="small-photo">
+        <img src="https://www.openaccessgovernment.org/wp-content/uploads/2020/04/legumes.jpg" width="300" alt="">
         <h4>African Legumes</h4>
     </div>
 
-    <div class="photo">
+    <div class="small-photo">
         <img src="https://wigmoretrading.com/wp-content/uploads/2022/01/Vegetables-That-Make-You-Beautiful-TSM.jpg" width="500" alt="">
         <h4>African Vegetables</h4>
     </div>
+</div>
 
     <div>
         <h1>NewsLetter</h1>
