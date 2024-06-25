@@ -15,12 +15,12 @@
         background-repeat: no-repeat;
         border-radius: 20%;
         text-align: center;
-        /* border-width: 25px;
+        border-width: 25px;
         border-style: solid;
-        border-color: #1105b8; */
-        border: 25px solid rgb(10, 2, 2);
-        /* margin: 0 auto;
-        flex-wrap: wrap; */
+        border-color: #1105b8;
+        border: 25px solid rgb(141, 130, 130);
+        margin: 0 auto;
+        flex-wrap: wrap;
         padding: 3%;
         background-position: center;
 
@@ -70,9 +70,11 @@
     background-color: aliceblue;
     
     }
+    .big-div img{
+        border-radius: 2px;
+        border: #0fc4f1 solid ;
+    }
     .navbar ul {
-
-        list-style: none;
         background-color: #183841;
         padding: 0px;
         margin: 0px;
@@ -80,7 +82,7 @@
        
     }
     .navbar a {
-        color: aliceblue;
+        color: rgb(10, 15, 19);
         text-decoration: none;
         padding: 15px;
         text-align: right;
@@ -88,11 +90,19 @@
     .navbar a:hover{
         background-color: rgb(36, 138, 99);
     }
-    
-    footer{
-        background-color: rgb(228, 156, 218);
-    }
+    .navbar li {
+    justify-content: space-betweenc;
 
+    }
+    footer{
+        background-color: rgb(121, 78, 170);
+        border: #adafaa 10px solid;
+        padding: 19%;
+
+    }
+footer ul {
+    display: block;
+}
     </style>
 </head>
 
@@ -100,25 +110,19 @@
     
 
     
-
     <div class=" big-div">
         <img src="https://t3.ftcdn.net/jpg/04/79/73/52/360_F_479735241_O3jHvE8zCMZTr0BdL7DPIKV102GvNBcD.jpg" alt="" height="50px" width="50px">
-    <nav class="navbar">
-        <ul >
-           
-            </ul>
-            <ul>
-           <button ><li><a href="index.html">Home</a></li> </button>
-           <button > <li> <a href="pages/about.html">About</a></li></button>
-           <button ><li><a href="pages/product.html">Product</a></li> </button>
-           <button ><li><a href="pages/contact.html">Contact</a></li></button> 
-           <button ><li><a href="pages/Signup.html"> Signup</a></li></button>
-        
+    <nav>
+        <ul>
+           <button><li><a href="index.html">Home</a></li> </button>
+           <button><li> <a href="pages/about.html">About</a></li></button>
+           <button><li><a href="pages/product.html">Product</a></li></button>
+           <button><li><a href="pages/contact.html">Contact</a></li></button>
+           <button><li><a href="pages/login.html">login</a></li></button>
+           <button><li><a href="pages/Signup.html">Signup</a></li></button>
         </ul>
     </nav>
 </div>
-
-<div>
     <div class="mine">
          <!-- <img src="https://mywordfmonline.com/wp-content/uploads/2020/06/484b935c-14ef-4611-854c-52b1ac838906.jpg " alt="image of women plant" >  -->
          <h1> Taste the Raw Goodness of Africa </h1> 
@@ -141,22 +145,22 @@
     </div>
 
     <div class="small-photo">
-        <img src="https://www.shutterstock.com/image-photo/exotic-fruits-pineapple-papaya-mango-600nw-1681908451.jpg" width="300" alt="">
+        <img src="https://www.shutterstock.com/image-photo/exotic-fruits-pineapple-papaya-mango-600nw-1681908451.jpg" width="300" height="300" alt="">
         <h4>African Fruit</h4>
     </div>
 
     <div class="small-photo">
-        <img src="https://cdn.shopify.com/s/files/1/0067/1576/8885/files/download_42_480x480.jpg?v=1692359546" width="300" alt="">
+        <img src="https://cdn.shopify.com/s/files/1/0067/1576/8885/files/download_42_480x480.jpg?v=1692359546" width="300" height="300" alt="">
         <h4>African Leafy Greens</h4>
     </div>
 
     <div class="small-photo">
-        <img src="https://www.openaccessgovernment.org/wp-content/uploads/2020/04/legumes.jpg" width="300" alt="">
+        <img src="https://www.openaccessgovernment.org/wp-content/uploads/2020/04/legumes.jpg" width="300" height="300" alt="">
         <h4>African Legumes</h4>
     </div>
 
     <div class="small-photo">
-        <img src="https://wigmoretrading.com/wp-content/uploads/2022/01/Vegetables-That-Make-You-Beautiful-TSM.jpg" width="500" alt="">
+        <img src="https://wigmoretrading.com/wp-content/uploads/2022/01/Vegetables-That-Make-You-Beautiful-TSM.jpg" width="300" height="300" alt="">
         <h4>African Vegetables</h4>
     </div>
 </div>
@@ -174,12 +178,14 @@
         <h1>
             Follow us on:
         </h1>
-        <ul>
+         <div class="item">
+            <ul>
             <li><i class="fa-brands fa-facebook-messenger"></i></li>
             <li><i class="fa-brands fa-facebook-f"></i></li>
             <li><i class="fa-brands fa-linkedin"></i></li>
             <li><i class="fa-brands fa-x-twitter"></i></li>
-        </ul>   
+        </ul> 
+    </div>  
     </footer>
 
 </body>
