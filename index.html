@@ -30,9 +30,18 @@
             flex-wrap: wrap;
             justify-content: space-between;
          }
+         .bigpic{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+         }
 
          .small-photo{
             border: #183841 solid;
+            justify-content: space-around;
+            padding: 20px;
+
          }
          .photo{
             width: 30%;
@@ -47,7 +56,7 @@
        }
 
          p{
-        background-color: rgb(66, 146, 12);
+        background-color: rgb(44, 110, 0);
         text-align: center;
         color: #f5f5f5;
         font-size: 200%;
@@ -66,15 +75,18 @@
     
     .big-div{
     display: flex;
-    text-align: end;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
     background-color: aliceblue;
-    
+    gap: 10px;
     }
+    
     .big-div img{
         border-radius: 2px;
         border: #0fc4f1 solid ;
     }
+    
     .navbar ul {
         background-color: #183841;
         padding: 0px;
@@ -159,7 +171,8 @@ footer ul {
         <img src="https://www.openaccessgovernment.org/wp-content/uploads/2020/04/legumes.jpg" width="300" height="300" alt="">
         <h4>African Legumes</h4>
     </div>
-
+    </div>
+<div class="bigpic">
     <div class="small-photo">
         <img src="https://wigmoretrading.com/wp-content/uploads/2022/01/Vegetables-That-Make-You-Beautiful-TSM.jpg" width="300" height="300" alt="">
         <h4>African Vegetables</h4>
